@@ -26,3 +26,7 @@ Gaussian noise, rotations, etc.). Justify their choices in your submission.</ol>
 <ol> Your goal is to maximise classification performance on the test sets. Report results using at
 least accuracy and F1-score.</ol>
 </html>
+
+## PS: 
+###  We do not claim ownership of these concepts,  which were adapted to classify images from the CIFAR-10.1 v6 dataset. Reported model accuracies  (e.g., ViT: 0.9825, EfficientNetV2-S: 0.9770, RepVGG-A2: 0.9750) may vary slightly across runs  due to randomization in stratified 5-fold cross-validation and MixUp’s random state. 
+#### The models  used—RepVGG-A2 (BSD 3-Clause License, chenyaofo/pytorch-cifar-models), EfficientNetV2-S  (public license, PyTorch), and ViT-Base-Patch16-224 (Apache 2.0 License, Hugging Face)—are  sourced from public repositories, and we do not claim ownership or creation of them. • RepVGG-A2: Sourced from https://github.com/chenyaofo/pytorch-cifar-models with a  BSD 3-Clause License.  EfficientNetV2-S: Sourced from PyTorch ,ViT-Base-Patch16-224: Sourced from https://huggingface.co/nielsr/vit-base-patch16-224- in21k-finetuned-cifar10 with an Apache 2.0 License 
